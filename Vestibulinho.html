@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vestibulinho - ETEC Itanhaém</title>
+    <link rel="stylesheet" href="style.css"> 
+    <script src="acessibilidade.js"></script>
+</head>
+<body>
+
+<header> 
+    <div class="container">
+        <a href="index.html">
+            <img src="https://saopaulo.sp.gov.br/barra-govsp/img/logo-governo-do-estado-sp.png" 
+                 alt="Logomarca Governo do Estado de São Paulo" 
+                 height="38" 
+                 align="left">
+        </a>
+    </div>
+</header>
+
+<div class="container">
+    <img src="https://bkpsitecpsnew.blob.core.windows.net/uploadsitecps/sites/49/2024/03/etec_itanhaem.png" 
+         width="278" 
+         height="80" 
+         alt="Logo ETEC Itanhaém" 
+         align="left">
+</div>
+
+<br>
+<center>
+    <b><h4>Av. José Batista Campos, 1431 - Cidade Anchieta, Itanhaém - SP, 11740-000</h4></b>
+</center>
+<hr>
+
+<!-- Menu -->
+<div class="menu">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li id="CURSOS">Cursos
+            <ul>
+                <li><a href="Informatica.html">Informática</a>
+                    <ul>
+                        <li><a href="planocurso.html">Plano de Curso</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li><a href="Vestibulinho.html">Vestibulinho</a></li>
+        <li><a href="Sobre.html">Sobre</a></li>
+    </ul>
+</div>
+
+<br><br>
+
+<!-- Acessibilidade -->
+<div class="acessibilidade">
+    <label for="acess">Acessibilidade:</label>
+    <select id="acess">
+        <option value="none">Padrão</option>
+        <option value="fonte">Aumentar fonte</option>
+        <option value="contraste">Alto contraste</option>
+        <option value="links">Destacar links</option>
+        <option value="legivel">Fonte mais legível</option>
+    </select>
+    <button onclick="aplicarAcessibilidade()">Aplicar</button>
+</div>
+
+<br>
+
+<!-- Conteúdo principal -->
+<center>
+    <h1>ETECs divulgam calendário do Vestibulinho para o segundo semestre de 2024</h1>
+    <h2><b>Click na imagem e vá direto para o site oficial e confira!</b></h2>
+</center>
+
+<div class="image" style="text-align:center;">
+    <a href="https://www.vestibulinhoetec.com.br/home/" target="_blank" rel="noopener noreferrer">
+        <img src="https://bkpsitecpsnew.blob.core.windows.net/uploadsitecps/sites/49/2024/04/LINHO2SEM2024-Inscricoes.png" 
+             alt="Vestibulinho 2º semestre 2024" 
+             height="392" 
+             width="472">
+    </a>
+</div>
+
+<br><br>
+
+<!-- Footer -->
+<footer>   
+    <center>
+        <h4>&copy; 2024 ETEC de Itanhaém - Estado de São Paulo</h4>
+    </center>
+</footer>
+
+</body>
+</html>
